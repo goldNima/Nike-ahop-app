@@ -45,10 +45,6 @@ export function Log (){
             setErrorpassword("Fill the password input ...")
             navigate('/Log')
             alert("Error")
-        }else if (name !== 'string' && lastname !== 'string' && password !== 'string'){
-            setErrorpassword("Fill the inputs with string ...")
-            navigate('/Log')
-            alert("Error")
         }else{
             navigate('/Dashboard')
             alert("Information correctly saved ...")
