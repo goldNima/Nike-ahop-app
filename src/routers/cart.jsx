@@ -25,10 +25,10 @@ export const Cart = ()=>{
                 <h1 className='title-cart'>Shopping Cart ...</h1>
                 {cartItem.map((item)=>(
                     <div className='shops-cart'>
-                    <img className='img-cart' src={item.img}></img>
+                    <img alt='img' className='img-cart' src={item.img}></img>
                     <h3 className='name-items-cart'>Nike shoes</h3>
                     <h4 className='price-item-shop'>{item.price} $</h4>
-                    <img onClick={()=> handleRemoveItemCart(item.id)} className='delete-btn-shop-cart' src={logoDelete}></img>
+                    <img alt='img' onClick={()=> handleRemoveItemCart(item.id)} className='delete-btn-shop-cart' src={logoDelete}></img>
                 </div>
                 ))}
                 <h3 className='total'>total price : {totalAmaunt} $</h3>
