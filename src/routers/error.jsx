@@ -8,7 +8,7 @@ export function Error (){
             <div className='error'>
                 <h1>Error 404</h1>
                 <h3>Not found !</h3>
-                <img className='Error-img' src={imgError}></img>
+                <img alt='img' className='Error-img' src={imgError}></img>
             </div>
         </div>
     )
