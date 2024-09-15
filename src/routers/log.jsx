@@ -78,9 +78,9 @@ export function Log (){
                     {errorpassword && <p>{errorpassword}</p>}
                     <br></br>
                     <h4 className='text-log'>Follow us in :</h4>
-                    <img className='img-log' src={telegram}></img>
-                    <img className='img-log' src={instagram}></img>
-                    <img className='img-log' src={website}></img>
+                    <img alt='img' className='img-log' src={telegram}></img>
+                    <img alt='img' className='img-log' src={instagram}></img>
+                    <img alt='img' className='img-log' src={website}></img>
                     <br></br>
                     <button className='btn-log' type='submit'>Log in</button>
                     </form>
