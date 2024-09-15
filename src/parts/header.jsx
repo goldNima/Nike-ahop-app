@@ -27,7 +27,7 @@ export function Header (){
     return (
         <div>
             <div className='header'>
-                <img className='logo-header' src={logo}></img>
+                <img alt='img' className='logo-header' src={logo}></img>
 
                 <div className='btn-header'>
                 <h4 onClick={Home} id='btn-header' className='btn-header1'>Home</h4>
@@ -38,10 +38,10 @@ export function Header (){
                 <h4 onClick={Err} id='btn-header' className='btn-header6'>Elements</h4>
                 </div>
 
-                <img onClick={Err} className='logo-header2' src={search}></img>
-                <img onClick={Err} className='logo-header2' src={wishlish}></img>
-                <img onClick={log} className='logo-header2' src={login}></img>
-                <img onClick={cart} className='logo-header2' src={bag}></img>
+                <img alt='img' onClick={Err} className='logo-header2' src={search}></img>
+                <img alt='img' onClick={Err} className='logo-header2' src={wishlish}></img>
+                <img alt='img' onClick={log} className='logo-header2' src={login}></img>
+                <img alt='img' onClick={cart} className='logo-header2' src={bag}></img>
 
             </div>
         </div>
