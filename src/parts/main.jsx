@@ -30,8 +30,8 @@ export const Main = ()=>{
                 {Information.map (information =>(
                     <>
                     <p className='info-main'>{information.info}</p>
-                    <img className='img-logo-main' src={information.logo}></img>
-                    <img data-aos="fade-up" className='img-main' src={information.img}></img>
+                    <img alt='img' className='img-logo-main' src={information.logo}></img>
+                    <img alt='img' data-aos="fade-up" className='img-main' src={information.img}></img>
                     <h4 className='price-main'> Price : {information.price} $</h4>
                     <button onClick={()=> handleAddToCart(information)} className='btn'>Shop now</button>
                     </>
@@ -41,13 +41,13 @@ export const Main = ()=>{
                     <br></br>
                     <h4 className='text-footer'>Follow us in social media :</h4>
                     <br></br>
-                    <img className='img-footer' src={telegram}></img>
-                    <img className='img-footer' src={instagram}></img>
+                    <img alt='img' className='img-footer' src={telegram}></img>
+                    <img alt='img' className='img-footer' src={instagram}></img>
                     <br></br>
-                    <img className='img-location' src={location}></img>
+                    <img alt='img' className='img-location' src={location}></img>
                     <h5 className='text-location'>Tehran</h5>
                     <br></br>
-                    <img className='img-number' src={number}></img>
+                    <img alt='img' className='img-number' src={number}></img>
                     <h5 className='text-number'>09360000000</h5>
                 </div>
             </div>
